@@ -5,26 +5,30 @@
     font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-body {
-    background-color: gray;
-    color: black;
+nav.nav-menu {
+    margin-top: 25px;
     text-align: center;
+    position: initial;
 }
 
-.diplome {
-
+nav.nav-menu ul li.btn {
+    list-style-type: none;
+    display: inline-block;
 }
 
-nav {
-    text-align: left;
-    width: 100%;
-    position: absolute;
-    padding-left: 10px;
+nav.nav-menu ul li.btn a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.nav-menu ul li.btn:hover a {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
 }
 
 footer {
